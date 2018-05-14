@@ -10,7 +10,8 @@ h3 {
 }
 .container {
   margin: 0 260px;
-  background: rgb(171,221,220);
+  background-image: url(../images/topaz-crystal-healing.jpg);
+  background-size: 100%;
   padding: 10px;
 }
 #title {
@@ -26,7 +27,7 @@ h3 {
   width: 440px;
   background: rgb(250, 230, 206);
   color: rgb(115,155,101);
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 #score {
   clear: both;
@@ -56,7 +57,9 @@ img {
 #counter {
   width: 80px;
   height: 80px;
-  background: rgb(86,252,250);	
+  background: rgb(86,252,250);
+  color: green;
+  text-align: center;
   display: inline-block;
 }
 #numTargetContainer {
