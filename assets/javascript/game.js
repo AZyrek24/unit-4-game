@@ -21,19 +21,19 @@ $(document).ready(function () {
 
     $("#crystalOne").on("click", function () {
       counter += crystalValues[0];
-      console.log(counter);
+      $("#numCurrent").text(counter);
     })
     $("#crystalTwo").on("click", function () {
       counter += crystalValues[1];
-      console.log(counter);
+      $("#numCurrent").text(counter);
     })
     $("#crystalThree").on("click", function () {
       counter += crystalValues[2];
-      console.log(counter);
+      $("#numCurrent").text(counter);
     })
     $("#crystalFour").on("click", function () {
       counter += crystalValues[3];
-      console.log(counter);
+      $("#numCurrent").text(counter);
     })
     
 
