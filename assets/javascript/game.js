@@ -8,7 +8,7 @@ $(document).ready(function () {
   var targetNum = 0;
   var crystalValues = [];
 
-  //Functions
+  //Function to start and restart game
   //============================================================================================
   function gameStart() {
     //Creates random target number between 19-120, Creates random crystal values between 1-12
